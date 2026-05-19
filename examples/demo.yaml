@@ -1,0 +1,24 @@
+# MineROI Demo Configuration
+# Usage: mineroi calc --gpu RTX_4090 --coin ETH --electricity 0.10 --hours 24 --price 2000
+
+gpu: RTX_4090
+coin: ETH
+electricity: 0.10
+hours: 24
+price: 2000.0
+
+# More examples:
+# Single GPU mining NONCE (like our vast.ai setup):
+# gpu: RTX_5060_Ti
+# coin: NONCE
+# electricity: 0.10
+# hours: 3
+# price: 0.013
+#
+# 2x GPU mining:
+# gpu: RTX_5060_Ti
+# coin: ETH
+# electricity: 0.10
+# hours: 24
+# price: 2100
+# count: 2
