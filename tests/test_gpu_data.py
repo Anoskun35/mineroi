@@ -44,6 +44,8 @@ class TestGPUData:
                 assert gpu.hashrate(coin) >= 0, f"{gpu.name} negative hashrate for {coin}"
 
     def test_supported_coins(self):
-        assert len(SUPPORTED_COINS) == 5
+        assert len(SUPPORTED_COINS) == 7
         assert "ETH" in SUPPORTED_COINS
-        assert "NONCE" in SUPPORTED_COINS
+        assert "ETC" in SUPPORTED_COINS
+        assert "CFX" in SUPPORTED_COINS
+        assert "ZEC" in SUPPORTED_COINS

@@ -39,7 +39,8 @@ class TestCoins:
         coins = resp.json()
         symbols = [c["symbol"] for c in coins]
         assert "ETH" in symbols
-        assert "NONCE" in symbols
+        assert "ETC" in symbols
+        assert "ZEC" in symbols
 
 
 class TestCalculate:

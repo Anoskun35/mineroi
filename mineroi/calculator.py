@@ -78,9 +78,11 @@ def _mining_factor(coin: str) -> float:
     """Coins per MH/s per hour — empirical estimates."""
     factors = {
         "ETH": 0.000032,
+        "ETC": 0.00045,
         "RVN": 0.45,
         "ERG": 0.015,
         "KAS": 0.08,
-        "NONCE": 95.0,
+        "CFX": 0.12,
+        "ZEC": 0.00038,
     }
     return factors.get(coin, 0.0)

@@ -8,26 +8,32 @@ COINGECKO_API = "https://api.coingecko.com/api/v3"
 
 COIN_IDS = {
     "ETH": "ethereum",
+    "ETC": "ethereum-classic",
     "RVN": "ravencoin",
     "ERG": "ergo",
     "KAS": "kaspa",
-    "NONCE": "nonce-agent-8004",
+    "CFX": "conflux-token",
+    "ZEC": "zcash",
 }
 
 DEFAULT_PRICES = {
     "ETH": 2100.0,
+    "ETC": 28.0,
     "RVN": 0.03,
     "ERG": 1.50,
     "KAS": 0.12,
-    "NONCE": 0.013,
+    "CFX": 0.08,
+    "ZEC": 28.0,
 }
 
 COIN_NAMES = {
     "ETH": "Ethereum",
+    "ETC": "Ethereum Classic",
     "RVN": "Ravencoin",
     "ERG": "Ergo",
     "KAS": "Kaspa",
-    "NONCE": "Nonce",
+    "CFX": "Conflux",
+    "ZEC": "Zcash",
 }
 
 

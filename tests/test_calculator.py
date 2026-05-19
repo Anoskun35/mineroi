@@ -67,7 +67,7 @@ class TestMiningFactor:
         assert _mining_factor("ETH") > 0
 
     def test_nonce_factor(self):
-        assert _mining_factor("NONCE") > 0
+        assert _mining_factor("CFX") > 0
 
     def test_unknown_coin_returns_zero(self):
         assert _mining_factor("DOGE") == 0.0
